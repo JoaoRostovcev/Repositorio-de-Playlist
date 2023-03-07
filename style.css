@@ -14,20 +14,102 @@ body {
     justify-content: space-around;
 }
 
+.h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .youtube {
     width: 436px;
     height: 500px;
     background: rgba(135, 24, 24, 0.8);
     border-radius: 37px;
     display: flex;
-    justify-content: center;
+    
     margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+
 }
 
 .youtube i {
     margin-top: 20px;
     font-size: 50px;
+    
 }
+
+.youtube i:hover {
+    box-shadow: black;
+}
+
+
+
+.playlistyou1 {
+    width: 350px;
+    height: 80px;
+    background: rgba(137, 21, 21, 0.8);
+    border-radius: 19px;
+    margin-top: 5vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+
+    
+    
+}
+.playlistyou1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ a{
+    text-decoration: none;
+    color: #A8A8A8;;
+}
+
+.playlistyou2 {
+    width: 350px;
+    height: 80px;
+    background: rgba(137, 21, 21, 0.8);
+    border-radius: 19px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.playlistyou3 {
+    width: 350px;
+    height: 80px;
+    background: rgba(137, 21, 21, 0.8);
+    border-radius: 19px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.playlistyou4 {
+    width: 350px;
+    height: 80px;
+    background: rgba(137, 21, 21, 0.8);
+    border-radius: 19px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
 
 
 
@@ -37,13 +119,69 @@ body {
     background: rgba(75, 122, 94, 0.3);
     border-radius: 37px;
     display: flex;
-    justify-content: center;
+    
     margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.playlistspo1 {
+    width: 350px;
+    height: 80px;
+    background: rgba(15, 66, 35, 0.8);
+    border-radius: 19px;
+    margin-top: 5vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.playlistspo2 {
+    width: 350px;
+    height: 80px;
+    background: rgba(15, 66, 35, 0.8);
+    border-radius: 19px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.playlistspo3 {
+    width: 350px;
+    height: 80px;
+    background: rgba(15, 66, 35, 0.8);
+    border-radius: 19px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.playlistspo4 {
+    width: 350px;
+    height: 80px;
+    background: rgba(15, 66, 35, 0.8);
+    border-radius: 19px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
 }
 
 .spotify i {
     margin-top: 20px;
     font-size: 50px;
+    
 }
 
 
@@ -53,13 +191,69 @@ body {
     background: rgba(135, 24, 24, 0.8);
     border-radius: 37px;
     display: flex;
-    justify-content: center;
     margin-top: 20px;
+
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playlistapp1 {
+    width: 350px;
+    height: 80px;
+    background: rgba(137, 21, 21, 0.8);
+    border-radius: 19px;
+    margin-top: 5vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+     
+}
+
+.playlistapp2 {
+    width: 350px;
+    height: 80px;
+    background: rgba(137, 21, 21, 0.8);
+    border-radius: 19px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.playlistapp3 {
+    width: 350px;
+    height: 80px;
+    background: rgba(137, 21, 21, 0.8);
+    border-radius: 19px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.playlistapp4 {
+    width: 350px;
+    height: 80px;
+    background: rgba(137, 21, 21, 0.8);
+    border-radius: 19px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
 }
 
 .apple-music i {
     margin-top: 20px;
     font-size: 50px;
+    height: 50px;
 }
 
 .div-2 {
@@ -85,7 +279,6 @@ body {
     background: rgba(135, 24, 24, 0.8);
     cursor: pointer;
     border: none;
-    
 }
 
 .link-spotify {
@@ -123,4 +316,3 @@ body {
     cursor: pointer;
     border: none;
 }
-
